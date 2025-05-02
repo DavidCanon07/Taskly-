@@ -3,15 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto-intregrador</title>
+    <title>Taskly Plus</title>
     <link rel="icon" type="image/x-icon" href="IMG/180862.ico">
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
+
 <body>
-    <h1>Taskly</h1>
-    <h2> Presentacion</h2>
-    <img src="img/descarga.jpg" alt="imagen de taskly">
-    
-    <a href="integrantes.html"><button>Integrantes</button></a>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown">
+                                Sigue el paso <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="list-down">
+                                <li><a href="semestre1.html">Semestre 1</a></li>
+                                <li><a href="semestre2.html">Semestre 2</a></li>
+                                <li><a href="semestre3.html">Semestre 3</a></li>
+                                <li><a href="semestre4.html">Semestre 4</a></li>
+                                <li><a href="semestre5.html">Semestre 5</a></li>
+                                <li><a href="semestre6.html">Semestre 6</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <h1>Taskly Plus</h1>
+            <p>
+                Evoluciona, produce y gana.
+            </p>
+            <a href="#">Información</a>
+        </div>
+    </header>
+
+    <main>
+        <img src="images/metodologias-agiles.jpg" alt="">
+
+        <div class="metodologia-content container">
+
+            <h2>¡Conocenos!</h2>
+            <video src="#">Aqui el video speech</video>
+        </div>
+
+    </main>
+    <section id="Llena tu informacion">
+        <div class="container">
+            <div class="title"><h1>Llena tu información</h1></div>
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Nombre Completo">
+                <input type="email" name="mail" id="mail" placeholder="Correo Electronico">
+                <input type="text" name="tel" id="tel" placeholder="Numero de Contacto">
+                <textarea rows="10" name="message" id="message" placeholder="¿Que duda tienes?"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="links">
+                <h3>perfiles</h3>
+                <ul>
+                    <li><a href="#"></a>perfil1</li>
+                    <li><a href="#"></a>perfil2</li>
+                    <li><a href="#"></a>perfil3</li>
+                </ul>
+            </div>
+        </div>
+        <span>©Todos los derechos reservados Taskly Plus</span>
+    </footer>
+
 </body>
 </html>
