@@ -293,3 +293,55 @@ section {
 .navbar ul li.dropdown:hover .list-down {
     display: block;
 }
+
+/* Sección de integrantes */
+#integrantes {
+    background-color: #f0f4f8;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.integrantes-title {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+.integrantes-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.integrante-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.integrante-card:hover {
+    transform: translateY(-10px);
+}
+
+.integrante-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.integrante-card h2 {
+    font-size: 1.3em;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.integrante-card p {
+    color: #666;
+    font-size: 0.95em;
+}
