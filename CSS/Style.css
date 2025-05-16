@@ -345,3 +345,17 @@ section {
     color: #666;
     font-size: 0.95em;
 }
+
+
+.metodologia-content p {
+    display: flex;
+    align-items: center; /* Opcional: alinea verticalmente la imagen y el texto al centro */
+}
+
+.metodologia-content p img {
+    margin-right: 15px; /* O el margen que desees */
+} 
+
+.texto-grande {
+    font-size: 1.5em; /* Ajusta este valor al tamaño que desees */
+}
