@@ -359,3 +359,13 @@ section {
 .texto-grande {
     font-size: 1.5em; /* Ajusta este valor al tamaño que desees */
 }
+.imagen-content img{
+    max-width: 1600px;
+}
+iframe{
+    max-width: 1000px;
+
+}
+.proyecto-content img{
+    max-width: 100%;
+}
