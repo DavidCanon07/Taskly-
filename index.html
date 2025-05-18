@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskly Plus</title>
-    <link rel="icon" type="icon" href="images/LOGO TASKLY.png">
+    <link rel="icon" type="image/png" href="images/LOGO TASKLY.png">
     <link rel="stylesheet" href="CSS/Style.css">
 </head>
-
 <body>
     <header class="header">
         <div class="menu container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <img src="images/LOGO TASKLY.png" alt="logo de taskly">
             </a>
             <input type="checkbox" id="menu">
@@ -28,93 +27,108 @@
 
         <div class="header-content container">
             <h1>Taskly Plus</h1>
-            <p>
-                Evoluciona, produce y gana.
-            </p>
+            <p>Evoluciona, produce y gana.</p>
             <a href="#">Información</a>
         </div>
     </header>
 
-    <main> 
-
-
-        <div class="metodologia-content container">
-            <h2>Descripción del problema:</h2>
-            <p class="texto-grande">
-
-
-                Los proyectos empresariales en la actualidadse enfrentan a dificultades en la gestión detareas de equipo donde se utilizan
-                metodologías convencionales para su desarrollo
-                <img src="images/des-problema.jpg" alt="">
-            </p>  
-
-
-
-
-            <div class="metodologia-content container">
-            <h2>Pregunta problema:</h2>
-            <p class="texto-grande">
-                Como podría mejorar la productividad y organización en losproyectos empresariales  mediante una App móvil que
-                gestione los proyectos empresariales mediante las
-                metodologías agiles
-                <img src="images/preg-prob.jpg" alt="">
-            </p> 
-
-        <div class="metodologia-content container">
-            <h2>Objetivo:</h2>
-            <p class="texto-grande">
-
-                Diseñar una App móvil que oriente los proyectos empresariales por medio del uso de las metodologías ágiles más usadas.
-                <img src="images/metodologias-agiles.jpg" alt="">
-            </p>
-
-            
-        
-        </div>
-        <div class="imagen-content">
-            <h2>¡Conocenos!</h2>
-            <img src="images/banner taskly.png" alt="">
+<main class="container">
+    <section class="triple-grid">
+        <div class="metodologia-content">
+        <h2>Descripción del problema</h2>
+        <p class="texto-grande">
+            Los proyectos empresariales en la actualidad se enfrentan a dificultades en la gestión de tareas de equipo donde se utilizan metodologías convencionales para su desarrollo.
+        </p>
+        <img src="images/des-problema.jpg" alt="Descripción del problema">
         </div>
 
-        <div class="documentacion-content">
-            <h2>Documentación</h2>
-            <iframe src="https://academiausbbogedu-my.sharepoint.com/personal/dacanonm_academia_usbbog_edu_co/_layouts/15/Doc.aspx?sourcedoc={7d8fad70-e69f-409f-8a21-a0eef7348249}&amp;action=embedview" width="1000px" height="500px" frameborder="0">Esto es un documento de <a target="_blank" href="https://office.com">Microsoft Office</a> incrustado con tecnología de <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        <div class="metodologia-content">
+        <h2>Pregunta problema</h2>
+        <p class="texto-grande">
+            ¿Cómo podría mejorar la productividad y organización en los proyectos empresariales mediante una App móvil que gestione los proyectos utilizando metodologías ágiles?
+        </p>
+        <img src="images/preg-prob.jpg" alt="Pregunta problema">
         </div>
-        <div class="proyecto-content">
-            <h2>Diagrama de gantt</h2>
-            <p class="texto-grande">Contenido del proyecto...</p>
-            <img src="images/project.jpg" alt="Imagen del proyecto" style="width: 100%; height: auto; border-radius: 8px;">
-        </div>
-        
 
-
-    </main>
-    <section id="Llena tu informacion">
-        <div class="container">
-            <div class="title"><h1>Llena tu información</h1></div>
-            <div class="form">
-                <input type="text" name="name" id="name" placeholder="Nombre Completo">
-                <input type="email" name="mail" id="mail" placeholder="Correo Electronico">
-                <input type="text" name="tel" id="tel" placeholder="Numero de Contacto">
-                <textarea rows="10" name="message" id="message" placeholder="¿Que duda tienes?"></textarea>
-                <button>Enviar</button>
-            </div>
+        <div class="metodologia-content">
+        <h2>Objetivo</h2>
+        <p class="texto-grande">
+            Diseñar una App móvil que oriente los proyectos empresariales por medio del uso de las metodologías ágiles más usadas.
+        </p>
+        <img src="images/metodologias-agiles.jpg" alt="Objetivo">
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-content container">
-            <div class="links">
-                <h3>perfiles</h3>
-                <ul>
-                    <li><a href="https://github.com/DavidCanon07">David Cañon</a></li>
-                    <li><a href="https://github.com/Andres14182">Andres Gamboa</a></li>
-                    <li><a href="https://github.com/AndresMoPl">Camilo Moreno</a></li>
-                </ul>
-            </div>
-        </div>
-        <span>©Todos los derechos reservados Taskly Plus</span>
-    </footer>
+    <section class="imagen-content">
+        <h2>¡Conócenos!</h2>
+        <img src="images/banner taskly.png" alt="Banner Taskly">
+    </section>
 
-</body>
-</html>
+    <div class="contenedor-secciones">
+        <section class="documentacion">
+        <h2>Documentación</h2>
+        <iframe src="https://academiausbbogedu-my.sharepoint.com/personal/dacanonm_academia_usbbog_edu_co/_layouts/15/Doc.aspx?sourcedoc={7d8fad70-e69f-409f-8a21-a0eef7348249}&action=embedview" height="500px" frameborder="0"></iframe>
+        </section>
+
+        <section class="proyecto">
+        <h2>Diagrama de Gantt</h2>
+        <p class="texto-grande">Contenido del proyecto...</p>
+        <img src="images/project.jpg" alt="Imagen del proyecto">
+        </section>
+    </div>
+
+    <section class="mer-content">
+        <h2>MER - Base de datos funcional</h2>
+        <img src="images/MER_TASKLY.png" alt="MER">
+    </section>
+</main>
+
+<section id="Llena-tu-informacion">
+    <div class="container">
+        <div class="title">
+        <h1>Llena tu información</h1>
+        </div>
+        <div class="form">
+        <form id="contact-form">
+            <input type="text" name="nombre" placeholder="Nombre Completo" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <input type="tel" name="telefono" placeholder="Número de Contacto" required>
+            <textarea name="mensaje" placeholder="¿Qué duda tienes?" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    (function () {
+        emailjs.init("Fz8IfmYTvN0I4rBlM");
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        emailjs.sendForm("Taskly_preguntas", "template_r1luqyg", this)
+        .then(function () {
+            alert("Mensaje enviado con éxito ✔️");
+            document.getElementById("contact-form").reset();
+        }, function (error) {
+            alert("Error al enviar ❌: " + JSON.stringify(error));
+        });
+    });
+</script>
+
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="links">
+        <h3>Perfiles</h3>
+        <ul>
+            <li><a href="https://github.com/DavidCanon07">David Cañon</a></li>
+            <li><a href="https://github.com/Andres14182">Andres Gamboa</a></li>
+            <li><a href="https://github.com/AndresMoPl">Camilo Moreno</a></li>
+        </ul>
+        </div>
+    </div>
+    <span>©Todos los derechos reservados Taskly Plus</span>
+</footer>
